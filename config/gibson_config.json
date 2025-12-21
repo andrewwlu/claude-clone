@@ -1,0 +1,65 @@
+{
+  "google_sheets": {
+    "fragment_db": {
+      "sheet_id": "1NkHj2kUESMA6JdYEkofW3iKv2vARPeFw0FQjYFzrfk4",
+      "sheet_name": "FragmentDB"
+    },
+    "plasmid_db": {
+      "sheet_id": "15IHOpvQ2-CQXBc9F_oQ5IXDpUMkRuY5aBtp4XXzOqTk",
+      "sheet_name": "PlasmidDB"
+    },
+    "backbone_db": {
+      "sheet_id": "1H9yiM4tK3D1fCF9g2qcoWlmb0r8UCJSpalzVs1D8NXc",
+      "sheet_name": "BackboneDB"
+    },
+    "twist_orders": {
+      "sheet_id": "150Dh4gQK7OXySqtUbCAfMuZM4VkuFpyuIo6tkbxvAN0",
+      "sheet_name": "TwistOrders"
+    },
+    "sequence_db": {
+      "sheet_id": "1snnfN2upOKNG7D19n3kDzJ2acZIZgpYACiTYM007r8U",
+      "sheet_name": "SequenceDB"
+    }
+  },
+  "service_account": {
+    "path": "~/.config/gibson/service-account.json",
+    "drive_folder_id": "YOUR_SHARED_FOLDER_ID"
+  },
+  "assembly_parameters": {
+    "overlap": {
+      "min_size_bp": 15,
+      "max_size_bp": 70,
+      "optimal_size_bp": 25
+    },
+    "tm": {
+      "min_celsius": 46,
+      "max_celsius": 60,
+      "optimal_celsius": 52,
+      "max_delta_celsius": 15
+    }
+  },
+  "twist_parameters": {
+    "fragment_size": {
+      "min_bp": 300,
+      "max_bp": 1800
+    }
+  },
+  "restriction_enzymes": {
+    "XhoI": {"recognition": "CTCGAG", "cut": "C/TCGAG"},
+    "HindIII": {"recognition": "AAGCTT", "cut": "A/AGCTT"},
+    "EcoRI": {"recognition": "GAATTC", "cut": "G/AATTC"},
+    "BamHI": {"recognition": "GGATCC", "cut": "G/GATCC"},
+    "PCR1": {"recognition": "ACTTAAGCTTCGCCACCATG", "cut": "/ACTTAAGCTTCGCCACCATG"},
+    "PCR2": {"recognition": "GCATGGACGAGCTGTACAAG", "cut": "GCATGGACGAGCTGTACAAG/"}
+  },
+  "backbone_start_sequences": {
+    "BB-0001": "GACATTGATTATTGACTAGTTATTAATAGT",
+    "BB-0002": "ATGGCGTTACATAACTTACGGTAAATGGCCCGCC"
+  },
+  "defaults": {
+    "organism": "Human",
+    "project": "",
+    "status_fragment": "not ordered",
+    "status_plasmid": "waiting for FRG"
+  }
+}
