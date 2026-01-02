@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "google-sheets": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["mcp-google-sheets@latest"],
+      "env": {
+        "SERVICE_ACCOUNT_PATH": "${GIBSON_SERVICE_ACCOUNT_PATH}",
+        "DRIVE_FOLDER_ID": "${GIBSON_DRIVE_FOLDER_ID}"
+      }
+    }
+  }
+}
