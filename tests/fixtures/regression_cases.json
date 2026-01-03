@@ -1,0 +1,42 @@
+{
+  "description": "Regression test cases from past bugs",
+  "cases": [
+    {
+      "id": "REGR-001",
+      "version_fixed": "0.2.1",
+      "issue": "Backbone cutting failed for enzymes with asymmetric overhangs",
+      "test_file": "test_edge_cases.py",
+      "test_function": "test_asymmetric_overhang_enzyme"
+    },
+    {
+      "id": "REGR-002",
+      "version_fixed": "0.3.2",
+      "issue": "GenBank feature positions incorrect after rotation",
+      "github_issue": 12,
+      "test_file": "test_edge_cases.py",
+      "test_function": "test_feature_across_origin_after_rotation"
+    },
+    {
+      "id": "REGR-003",
+      "version_fixed": "0.3.2",
+      "issue": "Homopolymer detection missed runs at fragment boundaries",
+      "test_file": "test_edge_cases.py",
+      "test_function": "test_homopolymer_at_fragment_boundary"
+    },
+    {
+      "id": "REGR-004",
+      "version_fixed": "0.4.1",
+      "issue": "Fragments with identical 3' ends caused incorrect assembly order",
+      "test_file": "test_edge_cases.py",
+      "test_function": "test_identical_ends_overlap"
+    },
+    {
+      "id": "REGR-005",
+      "version_fixed": "0.4.1",
+      "issue": "Overlap Tm calculation used simple GC method instead of nearest-neighbor",
+      "note": "Changed default from Tm_GC to Tm_NN for better accuracy",
+      "test_file": "test_overlap.py",
+      "test_function": "test_gc_method"
+    }
+  ]
+}
