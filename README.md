@@ -7,7 +7,7 @@ Design plasmids with natural language. A Claude Code showcase featuring 10 paral
 
 ---
 
-## See It In Action
+## Example
 
 **You say:**
 ```
@@ -76,6 +76,30 @@ pip install -r requirements.txt
 ./scripts/setup_mcp.sh
 claude
 ```
+
+---
+
+## Data Layer
+
+The pipeline connects to three Google Sheets databases via MCP:
+
+| Database | Contents | Example |
+|----------|----------|---------|
+| Fragments | Synthesized DNA fragments | FRG-0526: BRCA1 exon 11 |
+| Plasmids | Completed constructs | P-0654: pET28a-BRCA1 |
+| Backbones | Vector sequences | pET28a, pUC19, pBAD |
+
+Data flows through three tiers:
+
+```
+Google Sheets (source of truth)
+       ↓ MCP sync
+Local cache (data/cache/*.json)
+       ↓ Python modules
+Assembly engine (src/core/)
+```
+
+The `/sync-data` command refreshes the local cache. Session hooks check cache freshness on startup and warn if data is stale.
 
 ---
 
