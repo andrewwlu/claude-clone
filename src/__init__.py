@@ -4,13 +4,13 @@ Gibson Assembly Pipeline
 
 A Claude Code-powered pipeline for designing Gibson assembly reactions.
 
-Author: Victoria Tobin (vtobin@caltech.edu)
+Author: Andrew Lu (andrew.lu.chun@gmail.com)
 Affiliation: California Institute of Technology
 """
 
 __version__ = "0.4.1"
-__author__ = "Victoria Tobin"
-__email__ = "vtobin@caltech.edu"
+__author__ = "Andrew Lu"
+__email__ = "andrew.lu.chun@gmail.com"
 
 from .core.assembly import assemble_plasmid, rotate_assembly
 from .core.backbone import cut_backbone_with_enzymes

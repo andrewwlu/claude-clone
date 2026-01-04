@@ -185,7 +185,7 @@ tests/                         Pytest suite with fixtures
 ## Citation
 
 ```
-Tobin V., Lu A. (2025). Gibson Assembly Pipeline. California Institute of Technology.
+Lu, A. (2025). Gibson Assembly Pipeline. California Institute of Technology.
 ```
 
 ---

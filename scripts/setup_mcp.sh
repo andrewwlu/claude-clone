@@ -7,7 +7,7 @@
 #
 # Usage: ./scripts/setup_mcp.sh
 #
-# Author: Victoria Tobin (vtobin@caltech.edu)
+# Author: Andrew Lu (andrew.lu.chun@gmail.com)
 # Affiliation: California Institute of Technology
 
 set -e

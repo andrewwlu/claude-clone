@@ -1,6 +1,6 @@
 # Gibson Assembly Automation Pipeline
 
-**Author**: Victoria Tobin (vtobin@caltech.edu)
+**Author**: Andrew Lu (andrew.lu.chun@gmail.com)
 **Affiliation**: California Institute of Technology
 **Version**: 0.4.1
 

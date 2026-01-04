@@ -1,10 +1,9 @@
 # Authors
 
 ## Primary Author
-- **Victoria Tobin** - *Lead developer* - vtobin@caltech.edu
+- **Andrew Lu** - *Lead developer* - andrew.lu.chun@gmail.com
 
 ## Contributors
-- **Andrew Lu** - Fragment assembly logic, codon optimization, development assistance
 - **Luke Moeller** - Original notebook implementation, sequence database design
 
 ## Acknowledgments
