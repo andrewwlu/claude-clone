@@ -1,6 +1,6 @@
 # Gibson Assembly Pipeline
 
-Design plasmids with natural language. A Claude Code showcase featuring 10 parallel expert agents, skills, commands, hooks, and MCP integration.
+Design plasmids with natural language. Automates Gibson assembly design, validation, and ordering for gene synthesis.
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
